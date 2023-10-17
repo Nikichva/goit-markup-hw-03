@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework 3</title>
-    <link rel="stylesheet" href="./node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="./node_modules/modern-normalize/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,23 +17,24 @@
 <body>
     <div class="container">
         <header class="navbar">
-            <nav>
-                <a class=" logo link" href="./index.html">Web<span class="logo-black">Studio</span></a>
-                <ul class="list">
-                    <li><a class="nav-link link" href="./index.html">Studio</a></li>
-                    <li><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="nav-link link" href="">Contacts</a></li>
-                </ul>
-            </nav>
+            <div class="navigation container">
+                <nav class="nav-logo-list">
+                    <a class="header-logo" href="./index.html">Web<span class="logo-black">Studio</span></a>
+                    <ul class="list">
+                        <li><a class="nav-link" href="./index.html">Studio</a></li>
+                        <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                        <li><a class="nav-link" href="">Contacts</a></li>
+                    </ul>
+                </nav>
 
-            <address class="nav-contact">
-                <ul class="list">
-                    <li><a class="list link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li><a class="list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                </ul>
-            </address>
-
+                <address class="nav-contact">
+                    <ul class="list">
+                        <li><a class="list link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li><a class="list link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    </ul>
+                </address>
+            </div>
         </header>
 
         <main>
