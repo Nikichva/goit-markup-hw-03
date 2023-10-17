@@ -21,13 +21,11 @@ body {
 
 img {
   display: block;
-  width: 100%;
 }
 
 .container {
-  display: block;
+  min-width: 1158px;
   margin: 0 auto;
-  width: 1158px;
   padding: 0 15px;
 }
 
@@ -154,7 +152,6 @@ img {
   padding: 188px 0;
   display: block;
   background: var(--NAVY-BLUE);
-  min-height: 600px;
 }
 
 .first-header {
@@ -204,8 +201,13 @@ img {
 
 /* -------------------------SECOND SECTION-------------------------  */
 .visually-hidden {
-  visibility: hidden;
-  display: none;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%0);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: no wrap;
+  width: 1px;
 }
 
 .third-text {
@@ -245,7 +247,6 @@ img {
 
 .item {
   width: calc((100% - 72px) / 4);
-  margin-right: 24px;
 }
 
 .item:last-child {
