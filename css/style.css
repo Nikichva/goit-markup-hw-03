@@ -54,7 +54,12 @@ body {
 }
 
 .section {
+  padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.section-pt {
+  padding-top: 0;
 }
 
 .section-portfolio {
